@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+header {
+  background: #8b0000;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: url('https://picsum.photos/1200/400') no-repeat center/cover;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
